@@ -1,0 +1,70 @@
+ul#ul1{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+li#li1{
+  
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-family:'Ubuntu', Helvetica, Arial, sans-serif;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+
+
+body {
+    background:rgb(34, 165, 252);
+    padding-top:100px;
+  }
+  
+textarea {
+    height:auto;
+    max-width:600px;
+    color:rgb(0, 0, 0);
+    font-weight:400;
+    font-size:20px;
+    font-family:'Ubuntu', Helvetica, Arial, sans-serif;
+    width:100%;
+    background:#fff;
+    border-radius:3px;
+    line-height:2em;
+    border:none;
+    box-shadow:0px 0px 5px 1px rgba(0,0,0,0.1);
+    padding:30px;
+    -webkit-transition: height 2s ease;
+    -moz-transition: height 2s ease;
+    -ms-transition: height 2s ease;
+     -o-transition: height 2s ease;
+     transition: height 2s ease;
+  }
+  
+  * {
+    -webkit-font-smoothing:antialiased !important;
+  }
+  
+  button{
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #5487e6;
+    background: nome;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #2d6de6;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0,2s;
+}
+
+button:hover {
+    background: #3252e2;
+    color: #fff;
+}
